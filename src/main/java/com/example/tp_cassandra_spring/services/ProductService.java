@@ -28,6 +28,10 @@ public class ProductService {
         return productRepository.findAll();
     }
 
+    public List<Product> searchProducts(String name) {
+        return productRepository.searchByName(name);
+    }
+
     public void deleteProduct(UUID id) {
         productRepository.deleteById(id);
     }
