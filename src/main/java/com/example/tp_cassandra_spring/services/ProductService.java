@@ -32,6 +32,7 @@ public class ProductService {
         return productRepository.searchByName(name);
     }
 
+
     public void deleteProduct(UUID id) {
         productRepository.deleteById(id);
     }

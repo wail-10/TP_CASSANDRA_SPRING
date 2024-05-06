@@ -31,6 +31,7 @@ public class ProductController {
         return productService.searchProducts(name);
     }
 
+
     @PostMapping
     public String saveProduct(@RequestParam String name, @RequestParam double price, @RequestParam int quantity) {
         productService.saveProduct(name, price, quantity);

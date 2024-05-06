@@ -10,4 +10,5 @@ import java.util.UUID;
 public interface ProductRepository extends CassandraRepository<Product, UUID>{
     @Query("SELECT * FROM products WHERE name=?0 ALLOW FILTERING")
     List<Product> searchByName(String name);
+
 }
