@@ -3,21 +3,15 @@ package com.example.tp_cassandra_spring.entities;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.cassandra.core.mapping.Column;
 import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 import org.springframework.data.cassandra.core.mapping.Table;
 
 import java.util.UUID;
 
-@Table("products")
+@Table("categories")
 @AllArgsConstructor @NoArgsConstructor @Data
-public class Product {
+public class Category {
     @PrimaryKey
     private UUID id;
-    @Column("category_id")
-    private UUID categoryId;
     private String name;
-    private double price;
-    private int quantity;
-
 }

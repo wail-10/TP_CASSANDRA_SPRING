@@ -16,7 +16,7 @@ public class ProductService {
     }
 
     public void saveProduct(String name, double price, int quantity) {
-        Product product = new Product(UUID.randomUUID(), name, price, quantity);
+        Product product = new Product(UUID.randomUUID(), UUID.randomUUID(),name, price, quantity);
         productRepository.save(product);
     }
 
@@ -38,7 +38,7 @@ public class ProductService {
     }
 
     public void updateProduct(UUID id, String name, double price, int quantity) {
-        Product product = new Product(id, name, price, quantity);
+        Product product = new Product(id, UUID.randomUUID(), name, price, quantity);
         productRepository.save(product);
     }
 }
