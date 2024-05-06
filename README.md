@@ -30,6 +30,9 @@ Les opérations ont été testées avec l'outil Postman pour vérifier le bon fo
    ![image](https://github.com/wail-10/TP_CASSANDRA_SPRING/assets/79090195/3e74781b-9476-4a71-814f-e203a7f992e8)
 ![image](https://github.com/wail-10/TP_CASSANDRA_SPRING/assets/79090195/594a6bf5-0ee0-48cf-9738-291c877cae7b)
 
+Test après l'ajout de category:
+![image](https://github.com/wail-10/TP_CASSANDRA_SPRING/assets/79090195/281d41ea-9b13-4b57-892f-b43f768798f6)
+
 6. Test de recherche par mot clé:
    Ici en cherche en utilisant un mot clé
    ![image](https://github.com/wail-10/TP_CASSANDRA_SPRING/assets/79090195/40fe1c51-9dfa-479c-9c9f-0315dc30e21e)
