@@ -14,4 +14,5 @@ public class Category {
     @PrimaryKey
     private UUID id;
     private String name;
+
 }
